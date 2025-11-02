@@ -11,7 +11,7 @@ void metropolis_sweep(int *M, int N, float J, float T) //Performs a single metro
 
         // Compute energy change if this spin is flipped
         int s = M[i * N + j];
-        float deltaE = 2.0f * J * s * neighboursum(i, j, M, N);
+        float deltaE = 2.0f * J * s * neighboursum(M, i, j, N);
 
         // Flip spin with Metropolis acceptance criterion
         if (deltaE <= 0.0f || ((float)rand() / (float)RAND_MAX) < expf(-deltaE / T)) {
