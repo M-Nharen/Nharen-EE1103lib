@@ -5,6 +5,12 @@
 
 // The only function that is callable from here is findpeaks(fileptr)
 
+typedef struct {
+    int index;
+    double x;
+    double y;
+} Peak;
+
 #define MAX_POINTS 5000000
 #define SMOOTH_WINDOW 5
 #define OUTLIER_WINDOW 20
