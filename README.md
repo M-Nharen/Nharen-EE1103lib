@@ -295,6 +295,8 @@ generate_random_bits(N) – allocate random bit sequence.
 add_noise(block, N, p) – flip bits with probability p.
 ```
 
+📖 **Full API Documentation:** See the [API Reference →](docs/API_REFERENCE.md)
+
 🧪 Testing
 
 Every function is self-contained and easily testable.
