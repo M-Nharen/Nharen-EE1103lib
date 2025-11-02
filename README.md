@@ -8,7 +8,7 @@ It provides a clean, modular collection of algorithms for numerical computation,
 
 This library is designed for both learning and experimentation — easy to read, easy to extend, and fully self-contained (no external dependencies).
 Each source file implements a specific numerical or computational method with consistent API naming.
-
+```
 📂 Directory Structure
 Nharen-EE1103lib/
 ├── include/
@@ -27,7 +27,7 @@ Nharen-EE1103lib/
 ├── Makefile
 ├── LICENSE
 └── README.md
-
+```
 ⚙️ Build & Installation
 📦 1. Get the Library
 
