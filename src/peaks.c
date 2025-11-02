@@ -5,12 +5,6 @@
 
 // The only function that is callable from here is findpeaks(fileptr)
 
-typedef struct {
-    int index;
-    double x;
-    double y;
-} Peak;
-
 #define MAX_POINTS 5000000
 #define SMOOTH_WINDOW 5
 #define OUTLIER_WINDOW 20
@@ -158,7 +152,7 @@ int findpeaks(FILE *input) {
 
     double prev_x = 0.0;
     for (int i = 0; i < peak_count; i++) {
-        double width = compute_width(x, y, n, peaks[i].index);
+        double width = compute_width(x, y, peaks[i].index);
         double sep = (i == 0) ? 0 : peaks[i].x - prev_x;
         printf("%g\t%g\t%g\n", peaks[i].x, width, sep);
         prev_x = peaks[i].x;
