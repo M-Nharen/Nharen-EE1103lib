@@ -158,6 +158,7 @@ int main() {
 }
 ```
 📘 Module Documentation
+
 🧩 general.c
 
 Mathematical utility functions:
