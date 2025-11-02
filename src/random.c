@@ -32,7 +32,7 @@ float* randarray(long size, int start, int end) //returns a float array with som
 
     for (int i = 0; i < size; i++)
     {
-        ptr[i] = randombetween(start, end, 'float');
+        ptr[i] = randombetween(start, end, "float");
     }
 
     return ptr;
