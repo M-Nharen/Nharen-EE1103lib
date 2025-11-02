@@ -47,7 +47,7 @@ void matrixfillrandvalues(int **M, int N, int start, int end)
     {
         for (int j = 0; j<N; j++)
         {
-            M[i][j] = random_between(start, end, 'int');
+            M[i][j] = randombetween(start, end, "int");
         }
     }
 }
