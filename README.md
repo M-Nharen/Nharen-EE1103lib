@@ -1,4 +1,4 @@
-Nharen-EE1103lib
+EE1103lib
 Comprehensive C Library for Numerical Methods and Simulations (EE1103 – IIT Madras)
 
 EE1103lib is a unified, educational C library implementing the numerical and stochastic methods taught in EE1103 – Numerical Methods at IIT Madras.
