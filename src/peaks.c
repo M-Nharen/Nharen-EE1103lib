@@ -112,7 +112,7 @@ static int filter_peaks_by_separation(Peak *peaks, int count, double factor) {
     return count;
 }
 
-static double compute_width(double *x, double *y, int n, int peak_idx) {
+static double compute_width(double *x, double *y,int peak_idx) {
     double peak_val = y[peak_idx];
     double half = peak_val / 2.0;
     int left = peak_idx;
